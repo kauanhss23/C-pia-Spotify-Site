@@ -1,0 +1,203 @@
+@font-face{
+    font-family: circular;
+    src: url(../fonts/CircularStd-Book.otf);
+}
+
+button
+{
+   font-family:circular;
+   border-color: black;
+}
+
+.pag
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+
+.sessaomenu
+{   
+    background-color: black;
+    opacity: 70%;
+    width: 205vh;
+    display: flex;
+    justify-content: flex-end;    
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    position: fixed;
+}
+
+.logo
+{
+    margin:1cm;
+}
+
+.sessaomenubottom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom:1cm;
+    margin: 25px;
+    margin-left: 10cm;
+}
+
+.sessaomenubottom .div
+{
+    width: 2cm;
+    height: 2cm;
+    text-align: center;
+    color:#1DB954;
+    font-family: circular;
+}
+
+.container
+{
+    background-image: url(../images/Background/fundo.svg);
+    background-size: 29cm;
+    margin-left: 5cm;
+}
+
+
+.sessaoinicio
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    position: relative;
+    position: absolute;
+    position: static;
+    background: linear-gradient(#F037A5 -60%, #FAE62D 140%);
+    
+}
+
+.musicaparatodos
+{
+    margin-top: 5cm;
+    font-size: 48px;
+    color:white;
+    font-family: circular;
+    margin-left: 8cm;
+}
+
+.subtexto
+{
+    margin-bottom: 6cm;
+    font-size: 20px;
+    color:white;
+    font-family: circular;
+    margin-left: 5cm;
+}
+
+.buttom
+{
+   margin-top: 2cm;
+   display: flex;
+   margin-left: 5cm;
+}
+
+.quadrado
+{
+    background-color: black;
+    height: 100vh;
+}
+
+.logo2
+{
+    margin-left: 2cm;
+    margin-top: 2cm;
+}
+
+.tabelanav
+{
+    color: white;
+    margin-left: 4cm;
+    padding: 15px;
+}
+
+.logosociais
+{
+    display: flex;
+    justify-content: flex-end;
+    height: 2cm;
+    flex-direction: row;
+    background-color: black;
+}
+.instagram
+{
+    height: 54px;
+    width: 54px;
+    margin-left: 30cm;
+    margin-bottom: 10cm;
+}
+
+.twiter
+{
+    height: 54px;
+    width: 54px;
+    margin-bottom: 5cm;
+}
+
+.facebook
+{
+    height: 54px;
+    width: 54px;
+    margin-bottom: 10cm;
+}
+
+.secaorodape .div
+{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color:black;
+    justify-content: flex-end;    
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 2px;
+}
+
+.legal
+{
+    float: left;
+    margin: 2px;
+}
+
+.centro
+{
+    float: left;
+    margin: 2px
+}
+
+.politica
+{
+    float: left;
+    margin: 2px
+}
+
+.cookies
+{
+    float: left;
+    margin: 2px
+}
+
+.sobre
+{
+    float: left;
+    margin: 2px
+}
+
+.brazil
+{
+    float: right;
+    background-color: black;
+
+}
+
